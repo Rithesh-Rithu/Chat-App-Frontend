@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom";
-
+import Logo from "../../assets/logo.png"
 import './Join.css';
 
 export default function SignIn() {
@@ -10,7 +10,8 @@ export default function SignIn() {
   return (
     <div className="joinOuterContainer">
       <div className="joinInnerContainer">
-        <h1 className="heading">Join</h1>
+        <img src={Logo} alt="logo" className="join__logo" />
+        <h1 className="heading">Welcome to Chat room !!!</h1>
         <div>
           <input placeholder="Name" className="joinInput" type="text" onChange={(event) => setName(event.target.value)} />
         </div>

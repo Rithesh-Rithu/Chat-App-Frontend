@@ -6,7 +6,10 @@
   height: 60%;
   justify-content: space-between;
 }
-
+.activeContainer__logo{
+  width: 100px;
+  margin: -30px 8vw;
+}
 .activeContainer {
   display: flex;
   align-items: center;
